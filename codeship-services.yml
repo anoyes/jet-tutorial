@@ -1,6 +1,6 @@
 app:
   build:
-    image: app
+    image: anoyes/jet-tutorial
     dockerfile_path: Dockerfile
   environment:
     REDIS_URL: "redis://redis:6379"
